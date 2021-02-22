@@ -1,0 +1,65 @@
+<form [formGroup]="profileForm" >
+  
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName">
+  
+  </label>
+<br><br>
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+  <br><br>
+  <label>
+    Contact number:
+    <input type="text" formControlName="contactnumber" maxlength="10" minlength="10">
+  </label>
+  <br><br>
+  <label>
+    Date of birth:
+    <input type="date" formControlName="dob">
+  </label>
+  <br><br>
+  <label>
+    City:
+    <input type="text" formControlName="city">
+  </label>
+  <br><br>
+  <label>
+    Pincode:
+    <input type="text" formControlName="pincode" maxlength="6" minlength="6">
+  </label>
+  <br><br>
+  <button type="button" (click)="add()" [disabled]="!profileForm.valid">Add</button>
+
+</form>
+
+<br><br>
+
+<table class="table">
+  <thead>
+      <th (click)="sortbyfname()">First Name</th>
+      <th (click)="sortbylname()">Last Name</th>
+      <th (click)="sortbycontactnumber()">Contact Number</th>
+      <th (click)="sortbydob()">Date of Birth</th>
+      <th (click)="sortbycity()">City</th>
+      <th (click)="sortbypincode()">Pincode</th>
+  </thead>
+  <tbody>
+    
+         <tr *ngFor = "let p of collection">
+          <td>{{p.firstname}}</td>
+          <td>{{p.lastname}}</td>
+          <td>{{p.contactnumber}}</td>
+          <td>{{p.dob | date:'longDate' }}</td>
+          <td>{{p.city}}</td>
+          <td>{{p.pincode}}</td>
+          
+          <td><button type="button" (click)="deleterec(collection.indexOf(p))">Delete</button></td>
+          
+      </tr>
+
+      
+  </tbody>
+</table>
