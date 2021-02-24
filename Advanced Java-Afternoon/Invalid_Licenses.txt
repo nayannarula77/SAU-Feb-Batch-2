@@ -1,0 +1,2 @@
+Date_Status_Effective: 05/01/2014, License_Class: Res Motor Club Agt/Agy, License_Class_Code: 507, License_Expiration_Date: 05/01/2014, License_Issue_Date: 04/22/2002, License_Number: 85590, License_Status: N, Resident_Indicator: Y, State_Code: NV, State_ID: 68723
+Date_Status_Effective: 05/06/2016, License_Class: Res PRT Firm, License_Class_Code: 1507, License_Expiration_Date: 05/01/2021, License_Issue_Date: 11/27/2005, License_Number: 85512, License_Status: N, Resident_Indicator: Y, State_Code: WC, State_ID: 68721

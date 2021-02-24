@@ -1,0 +1,2 @@
+Date_Status_Effective: 10/01/2001, License_Class: RES PRODUCER/PRODUCER FIRM, License_Class_Code: 1011, License_Expiration_Date: 02/01/2022, License_Issue_Date: 10/01/2001, License_Number: 73146, License_Status: Y, Resident_Indicator: Y, State_Code: NV, State_ID: 68723
+Date_Status_Effective: 10/01/2003, License_Class: RES PRODUCER, License_Class_Code: 1013, License_Expiration_Date: 02/01/2024, License_Issue_Date: 10/01/2003, License_Number: 73142, License_Status: Y, Resident_Indicator: Y, State_Code: NV, State_ID: 68723
