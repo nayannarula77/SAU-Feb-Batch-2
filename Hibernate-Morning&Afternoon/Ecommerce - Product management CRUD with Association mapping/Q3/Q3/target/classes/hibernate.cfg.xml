@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>      
+<hibernate-configuration>    
+    <session-factory>    
+              
+    <property name="hbm2ddl.auto">create</property>      
+        <property name="dialect">org.hibernate.dialect.H2Dialect</property>      
+        <property name="connection.url">jdbc:h2:tcp://localhost/~/test</property>      
+        <property name="connection.username">sa</property>      
+        <property name="connection.password"></property>      
+        <property name="connection.driver_class">org.h2.Driver</property>     
+         <mapping class="com.au.Q3.Book" />   
+       <mapping class="com.au.Q3.Student" />   
+       
+    </session-factory>    
+</hibernate-configuration>  
