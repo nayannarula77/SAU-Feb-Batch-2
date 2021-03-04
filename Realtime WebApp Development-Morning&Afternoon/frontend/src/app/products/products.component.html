@@ -1,0 +1,21 @@
+
+<div>
+    <h1 style = "margin-left: 20px;margin-top: 20px">Products Available for You!!!</h1>
+</div>
+<div style = "align-self: center;">
+<table border="2px" style="margin: 20px;"  >
+    <thead class = "text-center">
+        <tr >
+            <th> Item ID </th>
+            <th> Item Name </th>
+            <th> Item Price </th>
+        </tr>
+    </thead>
+    <tr *ngFor = "let i of products">
+        <td class = "table-data">{{i.itemId}}</td>
+        <td class = "table-data">{{i.itemName}}</td>
+        <td class = "table-data">{{i.itemPrice}}</td>
+        <td> <button (click) = "addToCart(i)"> Add to Cart </button> </td>
+</table>
+</div>
+
