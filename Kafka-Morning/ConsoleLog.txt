@@ -1,0 +1,9 @@
+Console:
+
+Order= {Order Id: 12, Quantity: 100, Order Type: Prepaid, Order Creation Date: 7-03-2021}
+2021-03-04 00:30:30.932  INFO 9428 --- [nio-8080-exec-4] c.example.kafka.service.ProducerService  : Producer: Kafka Order Created , msg = Order= {Order Id: 12, Quantity: 100, Order Type: Prepaid, Order Creation Date: 7-03-2021}
+2021-03-04 00:30:30.937  INFO 9428 --- [ntainer#0-0-C-1] c.example.kafka.service.ConsumerService  : Consumer consumed : Created Order = Order= {Order Id: 12, Quantity: 100, Order Type: Prepaid, Order Creation Date: 7-03-2021}
+
+2021-03-04 00:28:38.909  INFO 2016 --- [ntainer#0-0-C-1] c.example.kafka.service.ConsumerService  : Consumer consumed : Shipped Order = Order= {Order Id: 10, Quantity: 100, Order Type: Prepaid, Order Creation Date: 7-03-2021}
+2021-03-04 00:30:11.655  INFO 2016 --- [ntainer#0-0-C-1] c.example.kafka.service.ConsumerService  : Consumer consumed : Shipped Order = Order= {Order Id: 11, Quantity: 100, Order Type: Prepaid, Order Creation Date: 7-03-2021}
+2021-03-04 00:31:24.422  INFO 2016 --- [ntainer#0-0-C-1] c.example.kafka.service.ConsumerService  : Consumer consumed : Shipped Order = Order= {Order Id: 12, Quantity: 100, Order Type: Prepaid, Order Creation Date: 7-03-2021}
