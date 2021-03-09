@@ -1,0 +1,6 @@
+projectKey=JavaJDBC
+serverUrl=http://localhost:9000
+serverVersion=8.7.0.41497
+dashboardUrl=http://localhost:9000/dashboard?id=JavaJDBC
+ceTaskId=AXf0B4SeJUCX0q9KLOjP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXf0B4SeJUCX0q9KLOjP
